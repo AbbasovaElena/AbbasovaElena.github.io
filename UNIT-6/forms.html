@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 6. Формы</title>
+    <style>
+        form{
+            padding: 30px;
+            display: flex;
+            width: 300px;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Задание 2 к Уроку 6. Формы</h1>
+    <form action="http://127.0.0.1:5500/UNIT-6/forms.html" method="get">
+        <input type="hidden" value="true" name="isloggen">
+        <input type="text" name="text" placeholder="введите текст для поиска">
+        <input type="text" name="user" placeholder="введите логин">
+        <input type="password" name="pass" placeholder="введите пароль">
+        <input type="tel" name="phone" placeholder="введите номер телефона">
+        <input type="email" name="email" placeholder="введите адрес эл.почты">
+        <input type="submit" value="Отправить">
+
+    </form>
+</body>
+</html>
