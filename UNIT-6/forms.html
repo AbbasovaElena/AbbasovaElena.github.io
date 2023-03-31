@@ -21,11 +21,22 @@
     <h1>Задание 2 к Уроку 6. Формы</h1>
     <form action="http://127.0.0.1:5500/UNIT-6/forms.html" method="get">
         <input type="hidden" value="true" name="isloggen">
-        <input type="text" name="text" placeholder="введите текст для поиска">
-        <input type="text" name="user" placeholder="введите логин">
-        <input type="password" name="pass" placeholder="введите пароль">
-        <input type="tel" name="phone" placeholder="введите номер телефона">
-        <input type="email" name="email" placeholder="введите адрес эл.почты">
+        <lable for="text">Текстовый запрос</lable>
+        <input id="text"type="text" name="text" placeholder="введите текст для поиска">
+        <label for="user">
+            <h3>Логин</h3>
+            <input id="user"type="text" name="user" placeholder="введите логин">
+        </label>
+        <label for="password">
+            <h3>Пароль</h3>
+            <input id="password" type="password" name="pass" placeholder="введите пароль">
+        </label>
+        <label for="tel">Номер телефона</label>
+        <input id="tel" type="tel" name="phone" placeholder="введите номер телефона">
+        <label for="email">
+            <h3>Электронная почта</h3>
+            <input id="email" type="email" name="email" placeholder="введите адрес эл.почты">
+        </label>
         <input type="submit" value="Отправить">
 
     </form>
