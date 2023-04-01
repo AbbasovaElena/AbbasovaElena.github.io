@@ -37,6 +37,46 @@
             <h3>Электронная почта</h3>
             <input id="email" type="email" name="email" placeholder="введите адрес эл.почты">
         </label>
+
+        <label>
+            <span>Оплата</span>
+            <input type="checkbox" name="pay" value="Card">
+        </label>
+    <h3>Когда доставить</h3>
+        <label>
+            <span>Сегодня</span>
+            <input type="radio" name="dilivery" value="сегодня">
+        </label>
+        <label>
+            <span>Завтра</span>
+            <input type="radio" name="dilivery" value="завтра">
+        </label>
+        <label>
+            <span>Послезавтра</span>
+            <input type="radio" name="dilivery" value="послезавтра">
+        </label>
+        <label for="">
+            <span>Адрес доставки</span>
+            <textarea name="address" placeholder="Введите адрес доставки" id="" cols="30" rows="10"></textarea>
+        </label>
+        <label for="">
+            <!-- <select name "catalog">-->
+            <span>Пожалуйста, выберите категорию товара</span>
+            <select name="catalog" id="">
+                <option value="Категория">Выберите категорию</option>
+                <optgroup label="Обувь">
+                    <option value="sneakers">Кеды</option>
+                    <option value="boots">Ботинки</option>
+                    <option value="shoes">Туфли</option>
+                </optgroup>
+                <optgroup label="Одежда">
+                    <option value="dress">Платье</option>
+                    <option value="t-shirt">Футболка</option>
+                    <option value="trousers">Брюки</option>
+                </optgroup>
+            </select>
+        </label>
+            
         <input type="submit" value="Отправить">
 
     </form>
