@@ -1,6 +1,12 @@
 *{color: blueviolet;}
 h1{color: brown; font-size: large;}
-p, span{color: darkblue; font-size: larger;}
+p, a{color: darkblue; font-size: larger;}
 #ident{color: gold;}
 [type="text"]{color: red;}
-
+div a{color: chartreuse;}
+p > span {color: cadetblue;}
+.book > .part {background-color: aqua;}
+.part + .part {color: darkolivegreen;}
+li:first-child{color: crimson;}
+li:last-child{color: olive !important;}
+li:nth-child(4){background-color: blueviolet;}
