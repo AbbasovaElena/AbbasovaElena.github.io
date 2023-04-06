@@ -1,1 +1,6 @@
-body{background-color: blue;}
+*{color: blueviolet;}
+h1{color: brown; font-size: large;}
+p, span{color: darkblue; font-size: larger;}
+#ident{color: gold;}
+[type="text"]{color: red;}
+
