@@ -1,0 +1,21 @@
+body{width: 300px;}
+p::first-line{color: blue;}
+p::first-letter{color: red; font-size: x-large;}
+div::before{content: "***"}
+div::after{content: "!!!"; color: crimson; font-size: x-large;}
+.main li{list-style: none;}
+.main li::before{content: "";
+display: inline-block;
+background-color: blueviolet;
+position: relative;
+width: 15px;
+height: 15px;
+border-radius: 900px;
+margin-right: 10px;}
+.secondary li::marker{color: darksalmon; font-size: larger;}
+.secondary li:hover{background-color: chocolate;}
+a:hover{color: chartreuse;}
+a:active{background-color: gold;}
+input{margin-right: 20px;}
+input:focus{border: 4px solid green}
+[type="checkbox"]:checked + span {color: darkred;}
