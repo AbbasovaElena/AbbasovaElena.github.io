@@ -1,0 +1,14 @@
+:root{--font-color-pimary: red;
+--background-color-primary:pink;
+--font-color-_pimary: green;}
+
+
+p.about{color: var(--font-color-pimary);}
+.secondary{color:var(--font-color-_pimary)}
+.main{background-color: var(--background-color-primary);}
+p.content{color: var(--font-color-_pimary);}
+input{background-color: var(--background-color-primary);}
+a{color: var(--font-color-pimary);}
+label{color: var(--font-color-_pimary);}
+.science__information{background-color: var(--background-color-primary);}
+.science__information_important{color: var(--font-color-pimary);}

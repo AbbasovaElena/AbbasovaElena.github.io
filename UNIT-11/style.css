@@ -20,3 +20,6 @@ input{margin-right: 20px;}
 input:focus{border: 4px solid green}
 [type="checkbox"]:checked + span {color: darkred;}
 .science__information_important{color: aqua;}
+
+
+
