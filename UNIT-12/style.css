@@ -37,7 +37,7 @@ height: 30px;}
 
 h1{display: inline;}
 
-.item, .item-1{
+.item, .item-1, .item-2{
     width: 400px;
     height: 200px;
     padding: 20px 10px;
@@ -52,7 +52,7 @@ h1{display: inline;}
     left: 100px;}
     
 
-.sign, .sign-1{
+.sign, .sign-1, .sign-2{
     width: 400px;
     height: 200px;
     padding: 20px 10px;
@@ -67,7 +67,7 @@ h1{display: inline;}
     left: 500px;    
 }
     
-.action, .action-1{
+.action, .action-1, .action-2{
     width: 400px;
     height: 200px;
     padding: 20px 10px;
@@ -82,7 +82,7 @@ h1{display: inline;}
     left: 150px;
 }
     
-.objects, .objects-1{ 
+.objects, .objects-1, .objects-2{ 
     width: 400px;
     height: 200px;
     padding: 20px 10px;
