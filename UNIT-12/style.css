@@ -1,3 +1,5 @@
+html{box-sizing: border-box;}
+*, *::before, *::after{box-sizing: inherit;}
 .text{
     width: 400px;
     height: 200px;
@@ -6,7 +8,8 @@
     padding-bottom: 30px;
     padding-left: 20px;
     margin: 30px 10px;
-    border: 10px dashed red;  
+    border: 10px dashed red; 
+    font-size: x-small; 
 
     background-color: aqua;
 }
