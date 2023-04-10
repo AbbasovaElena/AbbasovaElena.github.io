@@ -12,7 +12,22 @@
 }
 
 .text2{
+    font-size: small;
 
-
+    margin: 30px 10px;
     background-color: blueviolet;
+    height: 200px;
+
+    width: 400px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border: 10px dashed red;
+    box-sizing: border-box;
+     
+
+
+
+    
 }
