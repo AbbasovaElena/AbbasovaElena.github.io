@@ -1,8 +1,8 @@
-header, nav, ul{
-    width: 95%;
-    height: auto;}
-nav{margin: 0px 100px;}
 
+header, nav, ul{
+    width: 100%;
+    height: auto;}
+nav{padding: 0px 3px;}
 ul{
     list-style: none;
  display: flex;
@@ -12,9 +12,7 @@ ul{
  border-bottom: 1px solid #828282;
  height: 87.94px;
  margin: 0px;
- padding: 0px;
-
-   }
+ padding: 0px;   }
 
 .home{
     color: #070707;
@@ -45,3 +43,36 @@ ul{
  font-size: 18px;
  color: #828282;
  order: 5;}
+
+ main{
+    display: flex;
+    width: 100%;
+    height:auto;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+
+     }
+ img{
+    width: 200PX;
+    height: 200px;
+    border: 10px solid slateblue;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 50px 0px 0px;
+    
+ }
+ img:hover{opacity: 0.5;}
+ div{
+    width: 200px;
+    height: 300px;
+    padding: 0px;
+    border: 10px solid gold;
+    margin: 0px 0px 0px 50px;
+    box-sizing: border-box;
+    background-image: url(/UNIT-5/images/foot.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+    }
+    div:hover{opacity: 0.3;}
