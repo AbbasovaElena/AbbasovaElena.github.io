@@ -1,0 +1,47 @@
+header, nav, ul{
+    width: 95%;
+    height: auto;}
+nav{margin: 0px 100px;}
+
+ul{
+    list-style: none;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid #828282;
+ height: 87.94px;
+ margin: 0px;
+ padding: 0px;
+
+   }
+
+.home{
+    color: #070707;
+    font-style: normal;
+    font-size: 18px;
+    order: 1;
+    }
+.about{
+ color: #828282;
+ font-style: normal;
+ font-size: 18px;
+ order: 2;
+  }
+
+.skills{
+ font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 3; }
+ 
+.portfolio{
+  font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 4;}
+.contacts{
+  font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 5;}
