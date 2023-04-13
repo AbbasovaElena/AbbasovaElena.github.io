@@ -1,0 +1,10 @@
+body{background-color: papayawhip;}
+div{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right,  rgba(54, 189, 110, 0.8) 30%,rgba(233, 138, 14, 0.5) 70%, rgba(3, 54, 56,0.3) 70%-100%);
+    box-shadow: 10px 10px 30px 10px rgb(128, 0, 128), inset 10px 20px 10px 15px palevioletred;
+   
+
+}
