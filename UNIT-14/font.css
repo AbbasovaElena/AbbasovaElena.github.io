@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'Tilt';
+    src: url(/UNIT-14/Tils/TiltPrism-Regular.eot);
+    src: url(/UNIT-14/Tils/TiltPrism-Regular.eot?#iefix) format('embedded-opentype'),
+         url(/UNIT-14/Tils/TiltPrism-Regular.otf) format('otf'),
+         url(/UNIT-14/Tils/TiltPrism-Regular.svg#TiltPrism-Regular) format('svg'),
+         url(/UNIT-14/Tils/TiltPrism-Regular.ttf) format('truetype'),
+         url(/UNIT-14/Tils/TiltPrism-Regular.woff) format('woff'),
+         url(/UNIT-14/Tils/TiltPrism-Regular.woff2) format('woff2');
+         font-weight: normal;
+         font-style: italic;}
+
+@font-face {
+font-family: 'Teko';
+src: url(/UNIT14/Teko/Teko-Medium.eot);
+src: url(/UNIT14/Teko/Teko-Medium.eot?#iefix) format('embedded-opentype'),
+        url(/UNIT14/Teko/Teko-Medium.otf) format('otf'),
+        url(/UNIT14/Teko/Teko-Medium.svg#Teko-Medium) format('svg'),
+        url(/UNIT14/Teko/Teko-Medium.ttf) format('truetype'),
+        url(/UNIT14/Teko/Teko-Medium.woff) format('woff'),
+        url(/UNIT14/Teko/Teko-Medium.woff2) format('woff2');
+font-weight: normal;
+font-style:normal}

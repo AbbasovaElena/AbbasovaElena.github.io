@@ -1,10 +1,43 @@
-body{background-color: papayawhip;}
+
+body{background-color: papayawhip;
+    width: 700px;
+    padding: 20px;
+}
 div{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom right,  rgba(54, 189, 110, 0.8) 30%,rgba(233, 138, 14, 0.5) 70%, rgba(3, 54, 56,0.3) 70%-100%);
+    background: linear-gradient(to bottom right,  rgba(54, 189, 110, 0.8) 30%,
+    rgba(233, 138, 14, 0.5) 70%, rgba(3, 54, 56,0.3) 70%-100%);
     box-shadow: 10px 10px 30px 10px rgb(128, 0, 128), inset 10px 20px 10px 15px palevioletred;
-   
-
 }
+.paragraph_1, .paragraph_3{
+    font-family: 'Dongle', sans-serif;
+    color: blueviolet;
+    font-size: larger;
+    font-weight:800;
+    font-style: italic;
+    text-decoration:overline;
+    text-transform:uppercase;
+    text-align: center;
+    text-shadow: 10px 5px rgba(3, 54, 56,0.3);
+}
+.paragraph_2{font-family: 'Teko', sans-serif;
+ color: brown;
+ font-size: 25px;
+ font-weight:bolder;
+ font-style: oblique;
+ text-decoration:underline;
+ text-transform: capitalize;
+ text-align: right;
+ text-shadow: 6px 10px rgba(128, 0, 128, 0.5);
+}
+.paragraph_4{font-family: 'Tilt', sans-serif;
+    color: darkorange;
+    font-size:xx-large;
+    font-weight:lighter;
+    font-style:initial;
+    text-decoration:line-through;
+    text-transform:lowercase;
+    text-align: justify;
+    text-shadow: -10px -5px rgba(54, 189, 110, 0.8);}
