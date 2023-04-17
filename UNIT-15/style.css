@@ -1,0 +1,31 @@
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: nowrap;
+    font-size: 15px;
+    width: 500px;
+    height: 900px;
+    background-color: cadetblue;
+    gap: 20px;
+    padding: 10px;
+    }
+
+li{font-size: 3em;
+width: 30%;
+height: 25%;
+text-align: center;
+}
+
+.vegetables{
+    background-color: blueviolet;
+}
+.meat{
+    background-color: chartreuse;
+}
+.fish{
+    background-color: coral;
+}
