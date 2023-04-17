@@ -8,7 +8,7 @@ ul{
     flex-wrap: nowrap;
     font-size: 15px;
     width: 500px;
-    height: 900px;
+    height: 600px;
     background-color: cadetblue;
     gap: 20px;
     padding: 10px;
@@ -28,4 +28,38 @@ text-align: center;
 }
 .fish{
     background-color: coral;
+}
+.friends{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    opacity: 0.4;
+    }
+.friends:hover{
+    transition-property: width;
+    width: 700px;
+    height: 400px;
+    opacity: 1;
+    transition: 
+    width 2s ease-in-out,
+    height 2s ease-in 1.5s;    
+}
+
+.hakuna-matata{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    animation: 3s ease-in 0.1s infinite alternate hakuna-matata ;
+}
+@keyframes hakuna-matata {
+    from{
+        width: 600px;
+        height: 300px;
+        opacity: 1;     }
+    to{
+        width: 300px;
+        height: 150px;
+        opacity: 0.5;
+    }
+    
 }
