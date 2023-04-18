@@ -1,0 +1,32 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    margin: 90px 30px;
+    border: 30px;
+    background-color: coral;    
+    
+}
+.friends{
+    transition: all 1s ease-in-out;
+    }
+
+.friends:hover{
+    filter: grayscale(100%) ;
+}
+.hakuna-matata{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: auto;
+     
+    transition: all 2s ease-in-out;
+}
+.hakuna-matata:hover{
+    transform: rotate(90deg) scale(0.5) scale(-1, 1) translate(-50%, -50%);
+      
+}
