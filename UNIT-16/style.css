@@ -5,7 +5,6 @@ div{
     width: 900px;
     height: 600px;
     margin: 90px 30px;
-    border: 30px;
     background-color: coral;    
     
 }
@@ -29,4 +28,24 @@ div{
 .hakuna-matata:hover{
     transform: rotate(90deg) scale(0.5) scale(-1, 1) translate(-50%, -50%);
       
+}
+
+.media{
+    display: block;
+    width: 500px;
+    height: auto;
+   }
+@media(min-width: 425px){
+    .media{width: 650px;} 
+    .adapt{background-color: aqua;}
+    
+   }
+@media(max-width:375px) {
+    .media{width: 550px;}
+   .adapt{background-color: blueviolet;}
+    }
+@media(min-width:768px){
+    .media{width: 800px;}
+    .adapt{background-color: chartreuse;}
+
 }
