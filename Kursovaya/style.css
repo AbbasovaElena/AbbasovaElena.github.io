@@ -28,21 +28,21 @@ body{
  left: 0px;
  top: 0px;
  background: #FFFFFF}
+ .header{
+    margin-left: 250.69px; 
+    width: 940.6px;
+ }
 
-ul{
+.sections{
     list-style: none;
     border-bottom: 1px solid #828282;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
     justify-content:space-between;
-    align-items: center;
-    margin-left: 250.69px; 
-    margin-right: 253.7px;
     padding: 0;
     height: 87.94px;   
     width: 940.6px;
-      
+    text-align: center;      
   }
 
 .home{
@@ -116,15 +116,22 @@ ul{
     vertical-align: top;
         
 }
-.top{
+.sec-one{
+    width: 100%;
+    height: auto;
+    
+}
+.I{
     margin-left: 251.04px;
-    margin-right: 246.68px;
+    width: 940.6px;}
+.top{
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
     gap: 297.23px;
-    }
+        }
 
 h1{
     width: 123.51px;
@@ -149,6 +156,7 @@ h1{
     color: #070707;
     text-align: left;
     vertical-align: top;
+   
 }
 
 .lang{
@@ -159,14 +167,201 @@ h1{
     line-height: 19.81px;
     transform: rotate(-90deg);
     display: flex;
-
+    color: #828282;
 }
     
-    
+ 
     
 img{
-    margin-left: 250.69px;
+
     width: 943.61px;
     height: 387px;
     margin-top: 188.5px;
+    margin-bottom: 104.06px;
 }
+.russian{
+    color: #828282;
+}
+.english{
+    color: #070707;
+}
+
+.sec_two{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.h2II{
+    margin-top: 120.25px;
+    margin-bottom: 17.69px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    line-height: 42.09px;
+    vertical-align: top;
+    color: #070707;   
+    
+   }
+
+.paragraphs {
+    display: flex;
+    list-style: none;
+    height: 218px;
+    text-align: center;
+    margin-bottom: 107px;
+    padding: 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21.83px;
+    color: #070707;
+    vertical-align: top;
+    justify-content: space-between;
+    flex-direction: column;}
+
+.II{
+    margin-left: 250.69px; 
+    width: 940.6px;
+    margin-bottom: 107px;
+}
+.sec_three{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.III{
+    margin-left: 250.69px; 
+    width: 940.6px;
+    height: 610px;
+    }
+
+.h2III{
+    padding-top: 91px;
+    margin-bottom: 69.1px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42.09px;
+    vertical-align: top;
+    color: #070707;
+    text-align: center;
+}
+.skills_text{
+    
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21.83px;
+    vertical-align: top;
+    color: #070707;      
+    align-items: center;
+}
+.programs{
+    margin-top: 83.49px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    flex-wrap: nowrap;
+    width: 940.6px;
+    height: auto;
+    padding: 0;
+       
+}
+.programs_img{
+    display: block;
+    width: 89.07px;
+    height: 88.41px;
+    margin-bottom: 24.21px;
+    justify-content: start;
+    margin-top: 0;   
+    
+}
+.programs_img#Figma{
+    width: 58.24px;
+    height: 88.97px;
+}
+.stars_icon{
+    width: 26.07px;
+    height: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+.text{
+    width: 70.29px;
+    height: 27.27px;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    text-align: center;
+    line-height: 17.33px;
+    vertical-align: top;
+    color: #828282;   
+    margin-bottom: 40.41px; 
+}
+
+.block{
+    display: flex;
+    height: 218px;
+    align-items: center;
+    padding: 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21.83px;
+    color: #070707;
+    vertical-align:top;
+    justify-content:space-between;
+    flex-direction: column;}
+
+.sec-four{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    }
+    
+.IV{
+    margin-left: 250.69px; 
+    width: 940.6px;  
+    }
+
+.h2IV{
+    margin-top: 120.25px;
+    margin-bottom: 47px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    line-height: 42.09px;
+    vertical-align: top;
+    color: #070707;  
+    height: auto;
+}
+.girl{
+    width: 936.24px;
+    height: 510px;
+    margin-bottom: 44.88px;
+}
+.sport{
+    width: 936.24px;
+    height: 522px;
+    margin-bottom: 44.89px;
+    margin-top: 99.09px;
+}
+.video{
+    width: 936.24px;
+    height: 522px;
+    margin-bottom: 45.9px;
+    margin-top: 99.9px;
+}
+.a_IV{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    align-items: center;
+    line-height: 21.83px;
+    vertical-align: top;
+    color: #070707;  
+    text-align: center;
+    margin-left: 50%;
+    
+}
+   
