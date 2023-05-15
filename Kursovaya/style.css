@@ -60,7 +60,7 @@ body{
     color: #070707;
     text-align: left;
     vertical-align: top;
-        
+       
 }
 .about{
     width: 82.34px;
@@ -71,8 +71,14 @@ body{
     line-height: 22.28px;
     color: #828282;
     text-align: left;
-    vertical-align: top;}
-      
+    vertical-align: top;
+    text-decoration: none; 
+    }
+
+.about:hover {
+    color: #070707;
+}
+
 .skills{
     width: 42.18px;
     height: 23.03px;
@@ -83,9 +89,13 @@ body{
     color: #828282;
     text-align: left;
     vertical-align: top;
-       
+    text-decoration: none; 
+}
+.skills:hover {
+    color: #070707;
 }
 
+      
 .portfolio{
     width: 72.3px;
     height: 14.02px;
@@ -95,8 +105,13 @@ body{
     line-height: 22.28px;
     color: #828282;
     text-align: center;
-    vertical-align: top;      
+    vertical-align: top; 
+    text-decoration: none;      
 }
+.portfolio:hover {
+    color: #070707;
+} 
+
 .contacts{
     width: 77.32px;
     height: 23.03px;
@@ -106,13 +121,18 @@ body{
     line-height: 22.28px;
     color: #828282;
     text-align: left;
-    vertical-align: top;     
+    vertical-align: top;  
+    text-decoration: none;    
 }
+.contacts:hover{
+    color: #070707;
+}
+
+
 .sec-one{
     width: 100%;
     height: auto;
-    
-    }
+        }
 
 .I{
     width: 940.6px;
@@ -176,9 +196,14 @@ img{
     color: #828282;
     text-decoration: none;
 }
+.russian:hover{
+    background-color: #070707;}
 .english{
     color: #070707;
     text-decoration: none;
+}
+.english:hover{
+    background-color: #828282;
 }
 
 .sec_two{
@@ -364,6 +389,9 @@ img{
     text-align: center;
        
 }
+.a_IV:hover{
+    font-size: 20px;
+}
 .sec-four{
     text-align: center;
     justify-content: center;
@@ -372,8 +400,7 @@ img{
     }
 
 .V{
-    width: 940.6px;  
-    
+    width: 940.6px;     
     }
 
 .h2V{
@@ -385,8 +412,7 @@ img{
     vertical-align: top;
     color: #070707;  
     text-align: center;
-    
-}
+    }
 
 .V_text{
     display: block;
@@ -416,8 +442,11 @@ img{
     border-radius: 30px; 
     padding: 13px 29px; 
     text-decoration: none;  
-    
-    }
+        }
+
+.a_V:hover{
+    font-size: 22px;
+}
 .V_icon{
     display: flex;
     margin-top: 85.78px;
