@@ -24,6 +24,7 @@ html, body{
  min-height: 100vh;
  
  }
+
 body{
  overflow-x: hidden;
  overflow-y: auto;
@@ -31,6 +32,7 @@ body{
  background-color: #FFFFFF;
 }
 
+   
 .header{
     width: 940.6px;
     margin: 0 auto;
@@ -126,6 +128,16 @@ body{
 .contacts:hover{
     color: #070707;
 }
+@media (max-width: 767px){
+ 
+    .header{
+        width: 316.5px; 
+        margin: 0 auto;
+        position: relative;
+        display: none;
+       }
+   
+}
 
 
 .sec-one{
@@ -159,6 +171,25 @@ h1{
     vertical-align: top;
     flex-wrap: nowrap;
 }
+.button{
+    display: flex;
+    flex-direction: column;
+    width: 33px;
+    height: 20px;
+    justify-content: space-between;
+}
+.span_button{
+    background-color: #070707;
+    height: 4px;
+}
+@media(min-width: 768px){
+    .button{
+        display: none;
+    }
+    .II_text_I{
+        display: none;
+    }
+}
 
 .about_him{
     width: 155.65px;
@@ -186,13 +217,6 @@ h1{
     margin-left: 25px;
        
 }
-      
-img{
-    width: 943.61px;
-    height: 387px;
-    margin-top: 188.5px;
-    margin-bottom: 104.06px;
-}
 .russian{
     color: #828282;
     text-decoration: none;
@@ -206,6 +230,77 @@ img{
 .english:hover{
     background-color: #828282;
 }
+      
+img{
+    width: 943.61px;
+    height: 387px;
+    margin-top: 188.5px;
+    margin-bottom: 104.06px;
+}
+
+@media (max-width: 768px){
+    .I{
+        width: 316.5px;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        position: relative;
+        }
+    .top{
+        margin-top: 65px;
+        margin-bottom: 36.94px;
+        display: flex;
+        padding: 0;
+        vertical-align:top;
+        text-align:center; 
+        align-items:start;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        row-gap: 23px;
+        column-gap: 23px;
+                }
+    h1{
+       width: 124px;
+     height: 106px;
+     font-family: 'Gilroy-Bold';
+     font-size: 47px;
+     line-height: 58.19px;
+     color: #000;
+     text-align:left;
+     vertical-align: top;
+     margin: 0;
+     align-items: flex-start;
+     margin-top: -10px;
+         
+     }
+    .about_him{
+        width: 155.65px;
+        height: auto;;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 21.83px;
+        color: #090909;
+        text-align: left;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+    .lang{
+        display: none;
+    }
+    .img_I{
+        margin-top: 36.94px;
+
+    }
+    .img_I{
+        content: url(img/big-man.png);
+        width: 316.5px;
+        height: 478px;
+        margin-top: 256px;
+        margin-bottom: 83px;
+    }  
+     }
+
 .II{
     width: 940.6px;
     padding-bottom: 107px;
@@ -219,6 +314,7 @@ img{
     justify-content: center;
     width: 100%;
     height: auto;
+    
     
    }
 .h2II{
@@ -234,18 +330,20 @@ img{
 
 .paragraphs {
     display: flex;
+    position: relative;
     list-style: none;
-    height: 218px;
+    height: 261px;
+    width: 316px;
     text-align: center;
     padding: 0;
     font-family: 'Gilroy-Medium';
     font-size: 18px;
     line-height: 21.83px;
-    color: #070707;
+    color: #000;
     vertical-align: top;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 25px;}
+    margin: 0 auto;}
 
 
 .sec_three{
@@ -255,6 +353,45 @@ img{
     height: auto;
     margin-top: -25px;
 }
+
+@media (max-width: 768px){
+    .sec_one{
+        width: 375px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .II{
+        width: 316.5px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    .h2II{
+        padding-top: 81px;
+        margin-bottom: 29.94px;
+        color: #000;   
+        margin-top: -5px;   
+        }
+    .paragraphs {
+        display: flex;
+        list-style: none;
+        height: 261px;
+        text-align: center;
+        padding: 0;
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 21.83px;
+        color: #000;
+        vertical-align: top;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 76px;}
+
+    .II_text{
+        display: none;
+    }
+}
+
 .III{
     width: 940.6px;
     height: 610px;
@@ -283,7 +420,7 @@ img{
     align-items: center;
     justify-content: center; 
     position: relative;
-    margin-top: -10px;
+    margin-top: -15px;
    }      
     
 
@@ -345,6 +482,56 @@ img{
     vertical-align:top;
     justify-content:space-between;
     flex-direction: column;}
+
+@media (max-width: 767px){
+    .sec_three{
+        width: 375px;
+        position: relative;
+        margin: 0 auto;
+        height: 1421px;
+    }
+    .III{
+        width: 316.5px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        
+    }
+
+    .h2III{
+        padding-top: 83px;
+        margin-bottom: 50px;
+        color: #000;
+    }
+
+    .skills_text{
+        color: #000;
+    }
+    .programs{
+        margin-top: 74.74px;
+        margin-bottom: 98.73px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        list-style: none;
+        flex-wrap: nowrap;
+        width: 316.5px;
+        height: auto;
+        padding: 0;
+        row-gap: 83px;        
+    }
+
+    .programs_img  {
+        margin-bottom: 27px;
+    }
+
+    .text{
+        margin-bottom: 41px;
+        width: 79.33px;
+    }
+}
 
 .sec-four{
     text-align: center;
@@ -409,6 +596,49 @@ img{
 }
 .a_IV:hover{
     font-size: 20px;
+}
+
+@media (max-width: 767px){
+    .sec_four{
+        width: 375px;
+        position: relative;
+        margin: 0 auto;
+        height: auto;
+    }
+    .IV{
+        width: 316.5px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        
+    }
+
+    .h2IV{
+        padding-top: 81px;
+        margin-bottom: 64.94px;
+        color: #000;  
+    }
+    .girl{
+        width: 316px;
+        height: 171px;
+        margin-bottom: 33px;
+        margin-top: 0;
+    }
+    .a_IV{
+        padding: 0;
+        color: #000;
+        margin-top: -5px;
+    }
+    .sport, .video{
+        width: 316px;
+        height: 176px;
+        margin-top: 77.97px;
+        margin-bottom: 35px;
+    }
+    #a_video{
+        padding-bottom: 80.97px;
+    }
+    
 }
 .sec-four{
     text-align: center;
@@ -506,4 +736,50 @@ img{
     text-align:center;
     margin-top: 22.98px;
     margin-bottom: 123.19px;
+}
+
+@media (max-width: 767px){
+    .sec_five{
+        width: 375px;
+        position: relative;
+        margin: 0 auto;
+        height: auto;
+    }
+    .V{
+        width: 316.5px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    .h2V{
+        padding-top: 82px;
+        margin: 0;
+    }
+    .V_text{
+        margin-top: 32.03px;
+    }
+
+    .a_V{
+        display: block;
+        width: 316px;
+        height: auto;
+        background-color: #000;
+        border-radius: 50px;
+        position: relative;
+        padding: 12px 0;
+             
+    }
+
+    .V_icon{
+        margin-top: 48px;
+    }
+    .block_V{
+        margin: 0;
+    }
+    .V_text_{
+        margin-top: 48.78px;
+        margin-bottom: 90px;
+        font-size: 18px;
+        line-height: 21.83px;
+    }
 }
