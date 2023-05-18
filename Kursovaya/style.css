@@ -188,6 +188,11 @@ h1{
     }
     .II_text_I{
         display: none;
+        
+    }
+    .paragraphs{
+        height: 218px;
+        width: 485.34px;
     }
 }
 
