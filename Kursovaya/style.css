@@ -30,9 +30,10 @@ body{
  overflow-y: auto;
  position: relative;
  background-color: #FFFFFF;
+ margin: 0;
+ padding: 0;
 }
 
-   
 .header{
     width: 940.6px;
     margin: 0 auto;
@@ -60,7 +61,7 @@ body{
     line-height: 22.28px;
     color: #070707;
     text-align: left;
-    vertical-align: top;
+   
        
 }
 .about{
@@ -143,7 +144,7 @@ body{
 .sec-one{
     width: 100%;
     height: auto;
-        }
+    }
 
 .I{
     width: 940.6px;
@@ -244,6 +245,7 @@ img{
 }
 
 @media (max-width: 768px){
+    
     .I{
         width: 316.5px;
         background-color: #FFFFFF;
@@ -307,20 +309,20 @@ img{
      }
 
 .II{
-    width: 940.6px;
+    
     padding-bottom: 107px;
     padding-top: 120.25px;
-    background-color: #F6F6F6;
     margin: 0 auto;
     position: relative;
+    background-color: #F6F6F6;
+   
 }
 .sec_two{
     text-align: center;
     justify-content: center;
     width: 100%;
-    height: auto;
-    
-    
+    height: auto;  
+       
    }
 .h2II{
     margin-top: 0;
@@ -366,7 +368,7 @@ img{
         margin: 0 auto;
     }
     .II{
-        width: 316.5px;
+       
         margin: 0 auto;
         padding: 0;
         position: relative;
@@ -381,6 +383,7 @@ img{
         display: flex;
         list-style: none;
         height: 261px;
+        width: 316.5px;
         text-align: center;
         padding: 0;
         font-family: 'Gilroy-Medium';
@@ -550,7 +553,6 @@ img{
     background-color: #F6F6F6;
     margin: 0 auto;
     position: relative;
-    width: 940.6px;
     }
 
 .h2IV{
@@ -567,24 +569,30 @@ img{
 .girl{
     width: 936.24px;
     height: 510px;
-    margin: 0;
     margin-top: 10px;
-    padding: 0;
+    margin-bottom: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+
 }
 .sport{
     width: 936.24px;
     height: 522px;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
     margin-top: 10px;
-    padding: 0;
+    
     }
    
     
 .video{
     width: 936.24px;
     height: 522px;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
     
 }
 .a_IV{
@@ -605,13 +613,12 @@ img{
 
 @media (max-width: 767px){
     .sec_four{
-        width: 375px;
+        width: auto;
         position: relative;
         margin: 0 auto;
         height: auto;
     }
     .IV{
-        width: 316.5px;
         margin: 0 auto;
         padding: 0;
         position: relative;
